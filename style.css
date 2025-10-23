@@ -4,3 +4,25 @@
     box-sizing: border-box;
     font-family: 'Arial Rounded MT Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body {
+    background: palevioletred;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(209, 60, 110);
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    font-size: 30px;
+}
+
+main {
+    
+}
+
+
