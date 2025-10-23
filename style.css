@@ -8,17 +8,23 @@
 body {
     background: palevioletred;
     color: white;
-    text-align: center;
+    line-height: 1.6;
+    padding-bottom: 2rem;
 }
 
 header {
     background-color: rgb(209, 60, 110);
     color: white;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 header h1{
     font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
 }
 
 main {
@@ -27,6 +33,30 @@ main {
     padding: 0 20px;
 }
 
+.trad{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
 
+.art {
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.art.hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.art h3 {
+    color: white;
+}
 
 
