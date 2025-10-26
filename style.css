@@ -66,8 +66,8 @@ main {
     height: 500px;
     object-fit: contain;
     border-radius: 10px;
-    background-color: wheat;
-    padding: 10px;
+    background-color: whitesmoke;
+    padding: 5px;
     box-shadow:  0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
@@ -78,4 +78,13 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
+}
+
+.Description {
+    background: linear-gradient(to right, #ffc0cb, #d87093);
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
