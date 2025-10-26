@@ -27,6 +27,10 @@ header h1{
     letter-spacing: 1px;
 }
 
+header h3{
+    color: #ffe4ec;
+}
+
 main {
     max-width: 1200px;
     margin: 0 auto;
@@ -41,11 +45,19 @@ main {
     gap: 2rem;
 }
 
+trad h4{
+    color:#ffe4ec;
+}
+
 /* digital art*/
 .digital{
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
+}
+
+.digital h4{
+    color: #ffe4ec;
 }
 
 
