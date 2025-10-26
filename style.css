@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: rgb(209, 60, 110);
+    background-color: rgb(193, 29, 84);
     color: white;
     padding: 2rem 0;
     margin-bottom: 2rem;
@@ -62,7 +62,7 @@ trad h4{
 
 
 .art {
-    background-color: white;
+    background-color: black;
     border-radius: 15px;
     padding: 1.5rem;
     text-align: center;
@@ -86,7 +86,7 @@ trad h4{
     width: 500px;
     height: 500px;
     object-fit: contain;
-    background-color: white;
+    background-color: black;
     padding: 5px;
 }
 
