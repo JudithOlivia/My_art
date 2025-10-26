@@ -33,6 +33,7 @@ main {
     padding: 0 20px;
 }
 
+/* traditional art */
 .trad{
     display: grid;
     grid-template-columns: 1fr;
@@ -72,4 +73,9 @@ main {
 
 
 
-
+/* digital art*/
+.digital{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
