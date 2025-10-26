@@ -33,12 +33,21 @@ main {
     padding: 0 20px;
 }
 
+
 /* traditional art */
 .trad{
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
 }
+
+/* digital art*/
+.digital{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
 
 .art {
     background-color: white;
@@ -65,26 +74,29 @@ main {
     width: 500px;
     height: 500px;
     object-fit: contain;
-    border-radius: 10px;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 5px;
-    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 
-
-/* digital art*/
-.digital{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-}
 
 .Description {
-    background: linear-gradient(to right, #ffc0cb, #d87093);
+    background: linear-gradient(to right, #f6a0ac, #e04a7c);
     border-radius: 15px;
     padding: 1.5rem;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
     margin-bottom: 2rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Description h2 {
+    color: #c32c6b;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #ffe4ec;
+    padding-bottom: 0.5rem;
+}
+
+.Description h3 {
+    color:#e04a7c
 }
