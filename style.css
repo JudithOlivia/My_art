@@ -42,6 +42,7 @@ main {
 .art {
     background-color: white;
     border-radius: 15px;
+    padding: 1.5rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -58,5 +59,17 @@ main {
 .art h3 {
     color: white;
 }
+
+.art img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: wheat;
+    padding: 10px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+
 
 
