@@ -6,14 +6,14 @@
 }
 
 body {
-    background: palevioletred;
+    background: rgb(214, 56, 109);
     color: white;
     line-height: 1.6;
     padding-bottom: 2rem;
 }
 
 header {
-    background-color: rgb(193, 29, 84);
+    background-color: rgb(182, 33, 83);
     color: white;
     padding: 2rem 0;
     margin-bottom: 2rem;
@@ -46,7 +46,7 @@ main {
 }
 
 trad h4{
-    color:#ffe4ec;
+    color:#fad4e0;
 }
 
 /* digital art*/
@@ -57,12 +57,12 @@ trad h4{
 }
 
 .digital h4{
-    color: #ffe4ec;
+    color: #fad4e0;
 }
 
 
 .art {
-    background-color: black;
+    background-color: #140108;
     border-radius: 15px;
     padding: 1.5rem;
     text-align: center;
@@ -86,14 +86,14 @@ trad h4{
     width: 500px;
     height: 500px;
     object-fit: contain;
-    background-color: black;
+    background-color: #140108;
     padding: 5px;
 }
 
 
 
 .Description {
-    background: linear-gradient(to right, #f6a0ac, #e04a7c);
+    background: linear-gradient(to right, #f6a0ac, #e15281);
     border-radius: 15px;
     padding: 1.5rem;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
@@ -102,7 +102,7 @@ trad h4{
 }
 
 .Description h2 {
-    color: #c32c6b;
+    color: #bb1f60;
     margin-bottom: 1rem;
     font-size: 1.5rem;
     border-bottom: 2px solid #ffe4ec;
@@ -110,5 +110,5 @@ trad h4{
 }
 
 .Description h3 {
-    color:#e04a7c
+    color:#e02865
 }
